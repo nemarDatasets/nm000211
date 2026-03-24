@@ -1,0 +1,41 @@
+{
+	"Name": "RSVP ERP dataset for authentication from Zhang et al 2025",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC-BY-NC-ND-4.0",
+	"Authors": [
+		"Yufeng Zhang",
+		"Hongxin Zhang",
+		"Yixuan Li",
+		"Yijun Wang",
+		"Xiaorong Gao",
+		"Chen Yang"
+	],
+	"ReferencesAndLinks": [
+		"https://figshare.com/articles/dataset/27201003"
+	],
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.5.0"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "10.1038/s41597-025-05378-x",
+			"URL": "https://figshare.com/articles/dataset/27201003"
+		}
+	],
+	"Keywords": [
+		"Healthy",
+		"ERP",
+		"RSVP",
+		"p300",
+		"identity_authentication",
+		"target_detection"
+	],
+	"PublicationYear": 2025
+}

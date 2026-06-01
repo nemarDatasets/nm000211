@@ -1,0 +1,76 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Yufeng Zhang": {},
+    "Hongxin Zhang": {},
+    "Yixuan Li": {},
+    "Yijun Wang": {
+      "orcid": "0000-0002-8161-2150"
+    },
+    "Xiaorong Gao": {},
+    "Chen Yang": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41597-025-05378-x",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000211",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000211",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "RSVP ERP dataset for authentication from Zhang et al 2025",
+  "license": "CC-BY-NC-ND-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "9.3 GB (241 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A longitudinal EEG dataset comprising event-related potentials (ERPs) from 15 healthy participants performing a rapid serial visual presentation (RSVP) face authentication task. The dataset includes 4 sessions per subject collected over 200 days, with 57-channel EEG recordings at 1000 Hz sampling rate. This derivative dataset is designed for developing and benchmarking brain-computer interface (BCI) classifiers for identity authentication and target detection applications using P300-based paradigms.",
+  "methods_description": "EEG data were acquired using a Neuracle Neusen system with 57 channels arranged in a standard 10-20 montage (reference: CPz, ground: AFz). Participants performed an RSVP face authentication task involving self-face versus AI-generated face discrimination across 4 blocks per session, with 200 images per block presented at 100 ms stimulus onset asynchrony. Sampling rate was 1000 Hz with 50 Hz line frequency filtering.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "RSVP"
+    },
+    {
+      "term": "biometric authentication"
+    },
+    {
+      "term": "brain-computer interfaces"
+    },
+    {
+      "term": "target detection"
+    }
+  ],
+  "source_hash": "2716ab24d0f1f904f0a228a4e8db1f457b11cbe88e3a811b42dcaf2f239f01c7"
+}

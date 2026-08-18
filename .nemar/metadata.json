@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "RSVP ERP dataset for authentication from Zhang et al 2025",
-  "description": "A longitudinal EEG dataset comprising event-related potentials (ERPs) from 15 healthy participants performing a rapid serial visual presentation (RSVP) face authentication task. The dataset includes 57-channel EEG recordings acquired at 1000 Hz across 4 sessions spanning 200 days, with participants discriminating between self-face and AI-generated face stimuli. This dataset supports the development and evaluation of EEG-based biometric authentication systems using P300-based brain-computer interfaces.",
-  "methods_description": "EEG data were acquired using a Neuracle Neusen system with 57 channels at 1000 Hz sampling rate, referenced to CPz with AFz as ground. Participants performed an RSVP face authentication task with 4 sessions over 200 days, each session containing 4 blocks of 8 sequences with 200 face images. Stimuli were presented at 100 ms stimulus onset asynchrony. Standard 10-20 electrode montage was used.",
+  "description": "A longitudinal EEG dataset comprising event-related potentials (ERPs) from 15 healthy participants performing a rapid serial visual presentation (RSVP) face authentication task. The dataset includes 4 sessions per subject collected over 200 days, with 57-channel EEG recordings at 1000 Hz sampling rate. Participants discriminated between self-face and AI-generated faces in a p300-based identity authentication paradigm, yielding approximately 160 target and 6240 non-target trials per session. This derivative dataset was generated from raw EEG data using MOABB 1.5.0 and is organized in BIDS format.",
+  "methods_description": "EEG data were acquired using a Neuracle Neusen system with 57 electrodes in a standard 10-20 montage (reference: CPz, ground: AFz). Participants performed an RSVP face authentication task with visual stimulus presentation at 100 ms stimulus onset asynchrony. The experimental protocol consisted of 4 sessions over 200 days, with each session containing 4 blocks of 8 sequences presenting 200 face images. Data were sampled at 1000 Hz with a 50 Hz line frequency. Raw EEG data were processed and organized into BIDS-compliant derivative format using MOABB 1.5.0 (Mother of All BCI Benchmarks).",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -21,31 +21,22 @@
       "term": "EEG"
     },
     {
-      "term": "ERP"
+      "term": "event-related potentials"
     },
     {
-      "term": "P300"
-    },
-    {
-      "term": "biometric authentication"
-    },
-    {
-      "term": "brain-computer interfaces"
+      "term": "p300"
     },
     {
       "term": "RSVP"
-    },
-    {
-      "term": "face authentication"
-    },
-    {
-      "term": "longitudinal"
     },
     {
       "term": "identity authentication"
     },
     {
       "term": "target detection"
+    },
+    {
+      "term": "longitudinal study"
     }
   ],
   "related_identifiers": [
@@ -82,5 +73,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "0250c5c2755c54190054fc12d230c1225e5b095e04784de87b552bd91bf93424"
+  "source_hash": "44235b2c88f0057b3502df8228ef99af44beb7302ff8f24448d325e7feaa1f49"
 }

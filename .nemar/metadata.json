@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "RSVP ERP dataset for authentication from Zhang et al 2025",
-  "description": "A longitudinal EEG dataset of event-related potentials recorded during a rapid serial visual presentation (RSVP) face paradigm for EEG-based identity authentication. Fifteen healthy participants viewed sequences containing their own face (target) among AI-generated faces (non-targets) across four sessions spanning about 200 days. Recordings used 57 EEG channels sampled at 1000 Hz and are annotated with HED tags.",
-  "methods_description": "Fifteen healthy right-handed participants completed four sessions over 200 days, each with 4 blocks of 8 sequences of 200 face images presented at a 100 ms stimulus onset asynchrony. EEG was recorded with a Neuracle Neusen system at 1000 Hz from 57 channels, referenced to CPz with ground at AFz. Target (self-face) and non-target (AI-generated face) events were analyzed with HDCA classification.",
+  "description": "A longitudinal EEG dataset of event-related potentials recorded with a rapid serial visual presentation (RSVP) paradigm for EEG-based identity authentication. Fifteen healthy participants viewed streams of face images, with their own face as the target and AI-generated faces as non-targets. Recordings were made over four sessions spanning about 200 days, using 57 channels sampled at 1000 Hz.",
+  "methods_description": "57-channel EEG was recorded at 1000 Hz with a Neuracle Neusen system (reference CPz, ground AFz). Each session comprised 4 blocks of 8 sequences of 200 face images, presented at a 100 ms stimulus onset asynchrony. Targets were the participant's own face and non-targets were AI-generated faces. Four sessions were collected per subject over 200 days.",
   "license": "CC-BY-NC-ND-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -31,9 +31,6 @@
     },
     {
       "term": "identity authentication"
-    },
-    {
-      "term": "target detection"
     },
     {
       "term": "brain-computer interface"
@@ -83,5 +80,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "44235b2c88f0057b3502df8228ef99af44beb7302ff8f24448d325e7feaa1f49"
+  "source_hash": "259ab0e20e42c82010244881442e7cdbf41446c985135dfef94b611756f3fc8e"
 }
